@@ -257,6 +257,7 @@
                     let html_ = "<img class='img-product' src='" + item.image + "'/>";
                     $(".main-contents").append(html_);
                 })
+                imgDefaultRender();
             },
             error: function (jqXHR, textStatus, errorThrown) {
                 console.log(jqXHR);
